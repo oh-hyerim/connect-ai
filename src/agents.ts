@@ -127,8 +127,18 @@ export const AGENTS: Record<string, AgentDef> = {
     color: '#60A5FA',
     specialty: '트렌드 리서치, 경쟁사 분석, 데이터 수집·요약, 인용 자료 정리, 사실 확인',
     tagline: '트렌드와 데이터를 모아 사실 확인까지 끝냅니다'
+  },
+  skinCosmeticAdvisor: {
+    id: 'skinCosmeticAdvisor',
+    name: 'Skin & Cosmetic Advisor',
+    role: 'Skin & Cosmetic Advisor',
+    emoji: '🧴',
+    color: '#F9A8D4',
+    specialty: '피부 고민 분석, 화장품 성분 검토, 제품 비교, 스킨케어 루틴 제안, 안전성 주의사항 안내',
+    tagline: '피부와 화장품에 대한 근거 기반 조언을 제공합니다',
+    persona: '의학적 진단이나 치료를 단정하지 않습니다. 성분과 근거를 중심으로 설명하고, 개인차와 피부과 전문의 상담 필요성을 명확히 안내합니다.'
   }
 };
 
-export const AGENT_ORDER = ['ceo', 'youtube', 'instagram', 'designer', 'developer', 'business', 'secretary', 'editor', 'writer', 'researcher'];
-export const SPECIALIST_IDS = ['youtube', 'instagram', 'designer', 'developer', 'business', 'secretary', 'editor', 'writer', 'researcher'];
+export const AGENT_ORDER = ['ceo', 'youtube', 'instagram', 'designer', 'developer', 'business', 'secretary', 'editor', 'writer', 'researcher','skinCosmeticAdvisor'];
+export const SPECIALIST_IDS = ['youtube', 'instagram', 'designer', 'developer', 'business', 'secretary', 'editor', 'writer', 'researcher','skinCosmeticAdvisor'];
