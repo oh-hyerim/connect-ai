@@ -127,7 +127,16 @@ export const AGENTS: Record<string, AgentDef> = {
     color: '#60A5FA',
     specialty: '트렌드 리서치, 경쟁사 분석, 데이터 수집·요약, 인용 자료 정리, 사실 확인',
     tagline: '트렌드와 데이터를 모아 사실 확인까지 끝냅니다'
-  }
+  },
+  product_manager: {
+    id: 'product_manager',
+    name: 'Product Manager',
+    role: 'Product Strategy & MVP Manager',
+    emoji: '📋',
+    color: '#A78BFA',
+    specialty: '고객 문제 정의, MVP 범위 설정, 기능 우선순위 결정, 요구사항·사용자 스토리 작성, 제품 가설 검증, 에이전트 간 제품 업무 조율',
+    tagline: '사용자의 문제를 가장 중요한 제품으로 바꿉니다'
+  },
 };
 
 export const AGENT_ORDER = ['ceo', 'youtube', 'instagram', 'designer', 'developer', 'business', 'secretary', 'editor', 'writer', 'researcher'];
