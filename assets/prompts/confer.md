@@ -11,7 +11,7 @@
 }
 
 규칙:
-1. 모든 from/to는 specialist id 중 하나 (youtube/instagram/designer/developer/business/secretary). CEO 제외.
+1. 모든 from/to는 specialist id 중 하나 (youtube/instagram/designer/developer/business/secretary/editor/writer/researcher/skinCosmeticAdvisor). CEO 제외.
 2. 각 turn 텍스트는 30자 이내. 짧게, 자연스럽게.
 3. 최소 3턴, 최대 5턴.
 4. 산출물 사이의 협업·확인·피드백 흐름이 보이게. 일반론·인사 X.
